@@ -1,0 +1,109 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Login/Register Form
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   body {
+            background-color: #f7f7f7;
+            font-family: 'Arial', sans-serif;
+        }
+        .card {
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .input-field {
+            border: 1px solid #e5e7eb;
+            border-radius: 4px;
+        }
+        .btn-green {
+            background-color: #22c55e;
+            color: white;
+        }
+        .btn-green:hover {
+            background-color: #16a34a;
+        }
+        .icon-button {
+            color: #6b7280;
+        }
+        .icon-button:hover {
+            color: #4b5563;
+        }
+  </style>
+ </head>
+ <body class="flex items-center justify-center h-screen">
+  <div class="card p-8 w-96">
+   <div class="flex justify-center mb-6">
+    <img alt="Green logo resembling a leaf" class="h-12 w-12" height="50" src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-I2YOM1SwdNBzKYJXQnKBICMI/user-i1lGm6MzzKhBOOL3CkU0EiNj/img-kDcm426Mu5HPv8cgBiAuFVtJ.png?st=2023-11-20T05%3A14%3A25Z&amp;se=2023-11-20T07%3A14%3A25Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2023-11-19T20%3A26%3A57Z&amp;ske=2023-11-20T20%3A26%3A57Z&amp;sks=b&amp;skv=2021-08-06&amp;sig=kF4O%2Bial4LTWhwkZ90EgohLqSqXLAY2IjEzJ1bgtOy0%3D" width="50"/>
+   </div>
+   <div class="mb-4">
+    <div class="flex border-b border-gray-300 py-2">
+     <span class="text-gray-500 mr-3">
+      +886
+     </span>
+     <input class="w-full focus:outline-none" placeholder="968961316" type="text"/>
+    </div>
+   </div>
+   <div class="mb-4">
+    <button class="w-full py-2 px-4 text-gray-500 bg-gray-200 rounded-md focus:outline-none">
+     Slide to verify
+    </button>
+   </div>
+   <div class="flex items-center mb-4">
+    <input class="input-field flex-1 py-2 px-4 mr-2 focus:outline-none" placeholder="6 digit sms code" type="text"/>
+    <button class="btn-green py-2 px-4 rounded-md focus:outline-none">
+     Get code
+    </button>
+   </div>
+   <div class="mb-4">
+    <button class="btn-green w-full py-2 px-4 rounded-md focus:outline-none">
+     Login / Register
+    </button>
+   </div>
+   <div class="flex items-center mb-4">
+    <input class="mr-2" id="terms" type="checkbox"/>
+    <label class="text-gray-500 text-sm" for="terms">
+     I have read and agreed Yyque 服务协议 and 隐私政策
+    </label>
+   </div>
+   <div class="border-t border-gray-300 pt-4 mb-4">
+    <div class="text-center text-gray-500 text-sm mb-2">
+     Other login
+    </div>
+    <div class="flex justify-center">
+     <button class="icon-button text-2xl mr-2">
+      <i class="fas fa-key">
+      </i>
+     </button>
+     <button class="icon-button text-2xl mr-2">
+      <i class="fab fa-weixin">
+      </i>
+     </button>
+     <button class="icon-button text-2xl mr-2">
+      <i class="fab fa-qq">
+      </i>
+     </button>
+     <button class="icon-button text-2xl mr-2">
+      <i class="fab fa-weibo">
+      </i>
+     </button>
+     <button class="icon-button text-2xl">
+      <i class="fas fa-envelope">
+      </i>
+     </button>
+    </div>
+   </div>
+   <div class="text-center text-sm">
+    <a class="text-gray-500 hover:text-gray-700" href="#">
+     中文 / English
+    </a>
+   </div>
+  </div>
+ </body>
+</html>
